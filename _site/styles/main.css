@@ -1390,111 +1390,111 @@ header#index {
     .spack .sticker:nth-of-type(3) {
       right: 12px; }
   .spack:nth-of-type(1) .sticker:nth-of-type(1) {
-    transform: rotate(-3deg); }
+    transform: rotate(-0.6deg); }
   .spack:nth-of-type(1) .sticker:nth-of-type(2) {
     transform: rotate(-6.1deg); }
   .spack:nth-of-type(1) .sticker:nth-of-type(3) {
-    transform: rotate(-0.1deg); }
+    transform: rotate(7.9deg); }
   .spack:nth-of-type(2) .sticker:nth-of-type(1) {
-    transform: rotate(3.7deg); }
+    transform: rotate(9.3deg); }
   .spack:nth-of-type(2) .sticker:nth-of-type(2) {
-    transform: rotate(-5.6deg); }
+    transform: rotate(9.5deg); }
   .spack:nth-of-type(2) .sticker:nth-of-type(3) {
-    transform: rotate(-8.4deg); }
+    transform: rotate(-4.7deg); }
   .spack:nth-of-type(3) .sticker:nth-of-type(1) {
-    transform: rotate(-8.9deg); }
+    transform: rotate(3.6deg); }
   .spack:nth-of-type(3) .sticker:nth-of-type(2) {
-    transform: rotate(7.6deg); }
+    transform: rotate(-1.5deg); }
   .spack:nth-of-type(3) .sticker:nth-of-type(3) {
-    transform: rotate(-7.6deg); }
-  .spack:nth-of-type(4) .sticker:nth-of-type(1) {
-    transform: rotate(-6.1deg); }
-  .spack:nth-of-type(4) .sticker:nth-of-type(2) {
-    transform: rotate(9.7deg); }
-  .spack:nth-of-type(4) .sticker:nth-of-type(3) {
-    transform: rotate(8.6deg); }
-  .spack:nth-of-type(5) .sticker:nth-of-type(1) {
-    transform: rotate(6.9deg); }
-  .spack:nth-of-type(5) .sticker:nth-of-type(2) {
-    transform: rotate(-7.8deg); }
-  .spack:nth-of-type(5) .sticker:nth-of-type(3) {
-    transform: rotate(4.6deg); }
-  .spack:nth-of-type(6) .sticker:nth-of-type(1) {
-    transform: rotate(-4.9deg); }
-  .spack:nth-of-type(6) .sticker:nth-of-type(2) {
     transform: rotate(2.3deg); }
+  .spack:nth-of-type(4) .sticker:nth-of-type(1) {
+    transform: rotate(-1.1deg); }
+  .spack:nth-of-type(4) .sticker:nth-of-type(2) {
+    transform: rotate(5.5deg); }
+  .spack:nth-of-type(4) .sticker:nth-of-type(3) {
+    transform: rotate(-3.5deg); }
+  .spack:nth-of-type(5) .sticker:nth-of-type(1) {
+    transform: rotate(-4.3deg); }
+  .spack:nth-of-type(5) .sticker:nth-of-type(2) {
+    transform: rotate(-1deg); }
+  .spack:nth-of-type(5) .sticker:nth-of-type(3) {
+    transform: rotate(4.3deg); }
+  .spack:nth-of-type(6) .sticker:nth-of-type(1) {
+    transform: rotate(0.7deg); }
+  .spack:nth-of-type(6) .sticker:nth-of-type(2) {
+    transform: rotate(-0.5deg); }
   .spack:nth-of-type(6) .sticker:nth-of-type(3) {
-    transform: rotate(0.8deg); }
+    transform: rotate(-0.8deg); }
   .spack:nth-of-type(7) .sticker:nth-of-type(1) {
-    transform: rotate(1.6deg); }
+    transform: rotate(6.4deg); }
   .spack:nth-of-type(7) .sticker:nth-of-type(2) {
-    transform: rotate(-5.9deg); }
+    transform: rotate(0.6deg); }
   .spack:nth-of-type(7) .sticker:nth-of-type(3) {
-    transform: rotate(-3.8deg); }
+    transform: rotate(4.2deg); }
   .spack:nth-of-type(8) .sticker:nth-of-type(1) {
-    transform: rotate(6.1deg); }
+    transform: rotate(5.9deg); }
   .spack:nth-of-type(8) .sticker:nth-of-type(2) {
-    transform: rotate(1.3deg); }
+    transform: rotate(-8.6deg); }
   .spack:nth-of-type(8) .sticker:nth-of-type(3) {
-    transform: rotate(4.1deg); }
+    transform: rotate(6.5deg); }
   .spack:nth-of-type(9) .sticker:nth-of-type(1) {
-    transform: rotate(1deg); }
+    transform: rotate(-0.7deg); }
   .spack:nth-of-type(9) .sticker:nth-of-type(2) {
-    transform: rotate(-7.4deg); }
+    transform: rotate(9.2deg); }
   .spack:nth-of-type(9) .sticker:nth-of-type(3) {
-    transform: rotate(7deg); }
+    transform: rotate(-7deg); }
 
 .rotate-pattern-1 > *:nth-of-type(1) {
-  transform: rotate(1.3deg) rotateZ(0deg); }
+  transform: rotate(-0.3deg) rotateZ(0deg); }
 .rotate-pattern-1 > *:nth-of-type(2) {
-  transform: rotate(1.7deg) rotateZ(0deg); }
+  transform: rotate(-1.4deg) rotateZ(0deg); }
 .rotate-pattern-1 > *:nth-of-type(3) {
-  transform: rotate(0.3deg) rotateZ(0deg); }
+  transform: rotate(-1.2deg) rotateZ(0deg); }
 .rotate-pattern-1 > *:nth-of-type(4) {
-  transform: rotate(-0.8deg) rotateZ(0deg); }
+  transform: rotate(-0.5deg) rotateZ(0deg); }
 .rotate-pattern-1 > *:nth-of-type(5) {
-  transform: rotate(-0.9deg) rotateZ(0deg); }
+  transform: rotate(2deg) rotateZ(0deg); }
 .rotate-pattern-1 > *:nth-of-type(6) {
-  transform: rotate(1.6deg) rotateZ(0deg); }
+  transform: rotate(0.2deg) rotateZ(0deg); }
 
 .rotate-pattern-2 > *:nth-of-type(1) {
-  transform: rotate(0.1deg) rotateZ(0deg); }
+  transform: rotate(0.4deg) rotateZ(0deg); }
 .rotate-pattern-2 > *:nth-of-type(2) {
-  transform: rotate(-1.6deg) rotateZ(0deg); }
+  transform: rotate(-1.1deg) rotateZ(0deg); }
 .rotate-pattern-2 > *:nth-of-type(3) {
-  transform: rotate(0.9deg) rotateZ(0deg); }
+  transform: rotate(-1.3deg) rotateZ(0deg); }
 .rotate-pattern-2 > *:nth-of-type(4) {
-  transform: rotate(0.9deg) rotateZ(0deg); }
+  transform: rotate(-0.6deg) rotateZ(0deg); }
 .rotate-pattern-2 > *:nth-of-type(5) {
-  transform: rotate(-0.9deg) rotateZ(0deg); }
+  transform: rotate(0.4deg) rotateZ(0deg); }
 .rotate-pattern-2 > *:nth-of-type(6) {
-  transform: rotate(-0.5deg) rotateZ(0deg); }
+  transform: rotate(-1.1deg) rotateZ(0deg); }
 
 .rotate-pattern-3 > *:nth-of-type(1) {
-  transform: rotate(1deg) rotateZ(0deg); }
+  transform: rotate(-0.4deg) rotateZ(0deg); }
 .rotate-pattern-3 > *:nth-of-type(2) {
-  transform: rotate(0.2deg) rotateZ(0deg); }
+  transform: rotate(0.7deg) rotateZ(0deg); }
 .rotate-pattern-3 > *:nth-of-type(3) {
-  transform: rotate(-1.3deg) rotateZ(0deg); }
+  transform: rotate(1.6deg) rotateZ(0deg); }
 .rotate-pattern-3 > *:nth-of-type(4) {
-  transform: rotate(1.7deg) rotateZ(0deg); }
+  transform: rotate(-0.5deg) rotateZ(0deg); }
 .rotate-pattern-3 > *:nth-of-type(5) {
-  transform: rotate(-0.8deg) rotateZ(0deg); }
+  transform: rotate(1.2deg) rotateZ(0deg); }
 .rotate-pattern-3 > *:nth-of-type(6) {
-  transform: rotate(-0.1deg) rotateZ(0deg); }
+  transform: rotate(-1.4deg) rotateZ(0deg); }
 
 .rotate-pattern-4 > *:nth-of-type(1) {
-  transform: rotate(1.6deg) rotateZ(0deg); }
+  transform: rotate(-1.5deg) rotateZ(0deg); }
 .rotate-pattern-4 > *:nth-of-type(2) {
-  transform: rotate(1.6deg) rotateZ(0deg); }
-.rotate-pattern-4 > *:nth-of-type(3) {
-  transform: rotate(-1.7deg) rotateZ(0deg); }
-.rotate-pattern-4 > *:nth-of-type(4) {
-  transform: rotate(-0.3deg) rotateZ(0deg); }
-.rotate-pattern-4 > *:nth-of-type(5) {
   transform: rotate(1.4deg) rotateZ(0deg); }
-.rotate-pattern-4 > *:nth-of-type(6) {
+.rotate-pattern-4 > *:nth-of-type(3) {
+  transform: rotate(-1.3deg) rotateZ(0deg); }
+.rotate-pattern-4 > *:nth-of-type(4) {
+  transform: rotate(-1.7deg) rotateZ(0deg); }
+.rotate-pattern-4 > *:nth-of-type(5) {
   transform: rotate(-0.7deg) rotateZ(0deg); }
+.rotate-pattern-4 > *:nth-of-type(6) {
+  transform: rotate(1.3deg) rotateZ(0deg); }
 
 #portfolio .pf-item {
   color: black;

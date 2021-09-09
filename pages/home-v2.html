@@ -8,10 +8,16 @@ header-text: black
 pattern: hero-patterns/tic-tac-toe-05.svg
 ---
 
-<!-- TODO: remove inline styles -->
-<style>body { background-image: url(./media/hero-patterns/tic-tac-toe-05.svg); background-repeat: repeat; background-size: initial; background-attachment: initial; }</style>
+<style>
+  body {
+    background-image: url(./media/hero-patterns/tic-tac-toe-05.svg);
+    background-repeat: repeat;
+    background-size: initial;
+    background-attachment: initial;
+  }
+</style>
 
-<header style="display: none;">
+<header style="display: none">
   <container>
     <article class="content">
       <h2>Indians on Tinder!</h2>
@@ -23,98 +29,47 @@ pattern: hero-patterns/tic-tac-toe-05.svg
 <section id="sticker-packs" style="padding-top: 120px">
   <container>
     <h1 class="text-center">
-      Welcome to <wordart word="design">INDIANS</wordart> ON <wordart word="build">TINDER!</wordart>
-      <br> </h1>
-    <h3 class="text-center">Do you also get <wordart word="website">nervous</wordart> while talking to your <wordart word="love">match</wordart>? </h3><br>
-    <p>Do you feel confused about what to talk with the person, fret not. We’ve built this community to share their dating and chat experiences to lure the partners and how to stand out among all. We bring you a collection of Conversation starters and to make your experience even better.</p>
-    
-    
-    <!-- <p class="lead">Here are some <strong>projects</strong> I recently worked on:</p>
-    <grid column-count="3" tablet-column-count="2" phone-column-count="1" class="rotate-pattern-1">
-    {% for x in site.work %}
-      {% assign idx = forloop.index | plus: 0 %}
-      <a href="{{ x.url }}" class="spack {% if x.soon %}spack-soon{% endif %}">
-        <div class="spack-label" style="background-color: {{ x.accent }}; background-image: url({{ site.baseurl }}/media/{{ x.pattern }}); background-repeat: repeat; background-size: initial;" data-accent="{{ x.accent }}" data-cycle="{% cycle 'odd', 'even' %}">
-          <h3 class="hover-effect"><span class="hover-effect-text">{{ x.title }} <icon class="fas fa-arrow-right"></icon></span></h3>
-          <p>{{ x.description }}</p>
-        </div>
-        <div class="spack-spacer">
-          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAArwAAAGQAQAAAABkR44+AAAAAnRSTlMAAHaTzTgAAAA4SURBVHgB7cGBAAAAAMOg+1MfZNXSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADiLEAABHj3GfAAAAABJRU5ErkJggg==" />
-        </div>
-        {% if x.soon %}
-          <span class="spack-banner">Coming Soon!</span>
-        {% endif %}
-        {% if x.stickers %}
-          {% for img in x.stickers %}
-            <img src="{{ site.baseurl }}/media/{{ img[0] }}" alt="{{ img[1] }}" class="sticker"/>
-          {% endfor %}
-        {% else %}
-        {% endif %}
-      </a>
-    {% endfor %}
-    </grid> -->
-    <center><h3>CHAT HERE</h3><div data-tf-widget="Td8Im40e" data-tf-opacity="100" data-tf-chat style="width:300px;height:500px;"></div><script src="//embed.typeform.com/next/embed.js"></script></center>
-    <br>
-    <!-- <br>
-    <p class="lead">I also take on <strong>comissions</strong>, which are smaller scale projects for my (art) friends:</p>
-    <p>squid town, septa guides, dakimakura dreams</p> -->
+      Welcome to <wordart word="design">INDIANS</wordart> ON
+      <wordart word="build">TINDER!</wordart> <br />
+    </h1>
+    <h3 class="text-center">
+      Do you also get <wordart word="website">nervous</wordart> while talking to
+      your <wordart word="love">match</wordart>?
+    </h3>
+    <br />
+    <p>
+      Do you feel confused about what to talk with the person, fret not. We’ve
+      built this community to share their dating and chat experiences to lure
+      the partners and how to stand out among all. We bring you a collection of
+      Conversation starters and to make your experience even better.
+    </p>
+    <center>
+      <h3>CHAT HERE</h3>
+      <div
+        data-tf-widget="Td8Im40e"
+        data-tf-opacity="100"
+        data-tf-chat
+        style="width: 100%; height: 100%"
+      ></div>
+      <script src="//embed.typeform.com/next/embed.js"></script>
+    </center>
+    <br />
   </container>
 </section>
-<!--
 <section>
   <container>
     <h1 class="text-center">
-      I also <wordart word="organise">organise</wordart> &amp; <wordart word="speak">speak</wordart>
-      <br>
-      at <wordart word="meetups">meetups</wordart> and <wordart word="events">community events</wordart>!
+      Let's plan to convert your <wordart word="tea">match</wordart> to
+      <wordart word="hoagie">a date.</wordart>!
     </h1>
-    <p class="lead">Here are some of the wonderful <strong>events</strong> I organise:</p>
-    <grid column-count="3" phone-column-count="1" class="rotate-pattern-2">
-    {% for x in site.events %}
-      {% assign idx = forloop.index | plus: 0 %}
-      <a href="{{ x.url }}" class="spack {% if x.soon %}spack-soon{% endif %}">
-        <div class="spack-label" style="background-color: {{ x.accent }}; background-image: url({{ site.baseurl }}/media/{{ x.pattern }}); background-repeat: repeat; background-size: initial;" data-accent="{{ x.accent }}" data-cycle="{% cycle 'odd', 'even' %}">
-          <h3 class="hover-effect"><span class="hover-effect-text">{{ x.title }} <icon class="fas fa-arrow-right"></icon></span></h3>
-          <p>{{ x.description }}</p>
-        </div>
-        <div class="spack-spacer">
-          <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAArwAAAGQAQAAAABkR44+AAAAAnRSTlMAAHaTzTgAAAA4SURBVHgB7cGBAAAAAMOg+1MfZNXSAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADiLEAABHj3GfAAAAABJRU5ErkJggg==" />
-        </div>
-        {% if x.soon %}
-          <span class="spack-banner">Coming Soon!</span>
-        {% endif %}
-        {% if x.stickers %}
-          {% for img in x.stickers %}
-            <img src="{{ site.baseurl }}/media/{{ img[0] }}" alt="{{ img[1] }}" class="sticker"/>
-          {% endfor %}
-        {% else %}
-        {% endif %}
-      </a>
-    {% endfor %}
-    </grid>
-    <br><br>
-    <p class="lead">And a selection of my best <strong>talks</strong>:</p>
-      <grid column-count="3" phone-column-count="1" class="rotate-pattern-3">
-      {% for x in site.data.talks %}
-        <a href="#" class="spack">
-          <div class="spack-label spack-label-hook" style="" data-accent="{{ x.accent }}" data-cycle="{% cycle 'odd', 'even' %}">
-            <h3 class="hover-effect"><span class="hover-effect-text">{{ x.title }}<!-- <icon class="fas fa-arrow-right"></icon>--></span> </h3>
-  <!--          <p>{{ x.event }} {{ x.year }}</p>
-          </div>
-        </a>
-     {% endfor %}
-    </grid>
-
-  </container>
+    <p class="lead text-center">
+      Chat with <strong>EXPERTS</strong>, if you need some
+      <strong>help</strong> for advice.
+    </p>
+    <p class="lead text-center">
+      <a href="https://m.me/IndiansOnDating" target="_blank"
+        ><strong>Break the wall. </strong></a
+      >
+    </p></container
+  >
 </section>
--->
-<section>
-  <container>
-    <h1 class="text-center">
-      Let's plan to convert your <wordart word="tea">match</wordart> to <wordart word="hoagie">a date.</wordart>!
-    </h1>
-    <p class="lead text-center">Chat with <strong>EXPERTS</strong>, if you need some <strong>help</strong> for advice.</p>
-    <p class="lead text-center">  <a href="https://m.me/IndiansOnDating" target="_blank"><strong>Break the wall. </strong></a>
-  </container>
-</section>
-
